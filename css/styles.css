@@ -1,14 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
 
+body {
+  font-family: Montserrat;
+}
+
+
+.container-fluid {
+  padding: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.homepage {
+  padding-top: 40px;
+}
 
 #title {
   background-color: #ff4c68;
 
 }
 
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
 .desc {
   font-family: 'Montserrat';
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4.5rem;
+  color: azure;
   line-height: 1.5;
+  padding: 50px 0 150px 0;
+}
+
+.btn {
+  font-family: Helvetica;
+  margin: 0 10px;
+}
+
+.iphone {
+  margin-left: 100px;
+  transform: rotate(10deg);
 }
