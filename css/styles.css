@@ -20,10 +20,25 @@ body {
 
 }
 
+/* navigation-bar ka css */
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
 .navbar-brand {
   font-family: Ubuntu;
-  font-size: 45px;
+  font-size: 2.5rem;
   font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 
@@ -33,15 +48,20 @@ body {
   font-size: 4.5rem;
   color: azure;
   line-height: 1.5;
-  padding: 50px 0 150px 0;
+  padding-bottom: 50px;
 }
 
-.btn {
+/* Downloading waale button */
+
+.btn-download {
   font-family: Helvetica;
-  margin: 0 10px;
+  margin: 5% 3% 10% 0;
+
 }
+
+/* iphone image */
 
 .iphone {
-  margin-left: 100px;
-  transform: rotate(10deg);
+  width: 60%;
+  transform: rotate(20deg);
 }
