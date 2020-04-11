@@ -65,3 +65,43 @@ body {
   width: 60%;
   transform: rotate(20deg);
 }
+
+/* features section */
+
+#features {}
+
+.feature {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 50px;
+}
+
+.features {
+  text-align: center;
+  color: #ff4c68;
+  padding: 50px;
+}
+
+.feature i {
+  padding: 30px;
+}
+
+.feature i:hover {
+  color: tomato;
+  transition: linear;
+  transition-duration: 0.2s;
+
+}
+
+.features p {
+  width: 250px;
+  padding-top: 5px;
+  margin: auto;
+  color: grey;
+}
+
+.features h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
